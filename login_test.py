@@ -59,5 +59,16 @@ class TestUser(unittest.TestCase):
         test_user.save_user()
         self.new_user.delete_user()
         self.assertEqual(len(User.user_list), 1) 
-        
-              
+
+# test 6 : if a user exists
+    def test_user_exists(self):
+        '''
+        returns a true or false if a user does or doesn't exists
+        '''
+        self.new_user.save_user()
+        test_user = User("Test", "user", "0798765431", "testuser@mail.com", "password")
+        test_user.save_user()
+        user_exists = User.user_exist("Test")
+        self.assertTrue(user_exists)
+
+
