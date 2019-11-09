@@ -49,4 +49,15 @@ class TestUser(unittest.TestCase):
         self.new_user.delete_user()
         self.assertEqual(len(User.user_list), 1)
 
-       
+# test 5 : find user by first name
+    def test_find_user_by_first_name(self):
+        '''
+        finds the user's first name and displays it
+        '''
+        self.new_user.save_user()
+        test_user = User("Test", "user", "0798765431", "testuser@mail.com", "password")
+        test_user.save_user()
+        self.new_user.delete_user()
+        self.assertEqual(len(User.user_list), 1) 
+        
+              
