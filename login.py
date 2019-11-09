@@ -43,3 +43,11 @@ class User:
                 return True
         else:
             return False
+
+     @classmethod
+    def display_users(cls):
+        '''
+        display the contact list by returning it
+        '''
+        return cls.user_list
+
