@@ -51,3 +51,7 @@ class User:
         '''
         return cls.user_list
 
+     @classmethod
+    def copy_email(cls, first_name):
+        user_found = User.find_by_first_name(first_name)
+        pyperclip.copy(user_found.email)
