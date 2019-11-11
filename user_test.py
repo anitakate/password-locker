@@ -1,5 +1,5 @@
 import unittest
-import pyperclip
+# import pyperclip
 from user import User  # user class import
 class TestUser(unittest.TestCase):
     '''
@@ -80,13 +80,13 @@ class TestUser(unittest.TestCase):
         self.assertEqual(User.display_users(), User.user_list)
 
 # test 8 : pyperclip
-    def test_copy_email(self):
-        '''
-        copies numbers
-        '''
-        self.new_user.save_user()
-        User.copy_email("0798765431")
-        self.assertEqual(self.new_user.email,pyperclip.paste())
+    # def test_copy_email(self):
+    #     '''
+    #     copies numbers
+    #     '''
+    #     self.new_user.save_user()
+    #     User.copy_email("0798765431")
+    #     self.assertEqual(self.new_user.email,pyperclip.paste())
 
 if __name__ == '__main__':
     unittest.main()

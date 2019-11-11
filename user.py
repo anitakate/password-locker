@@ -1,4 +1,5 @@
-import pyperclip
+# import pyperclip
+
 class User:
     '''
     the user class
@@ -44,14 +45,14 @@ class User:
         else:
             return False
 
-     @classmethod
+    @classmethod
     def display_users(cls):
         '''
         display the contact list by returning it
         '''
         return cls.user_list
 
-     @classmethod
-    def copy_email(cls, first_name):
-        user_found = User.find_by_first_name(first_name)
-        pyperclip.copy(user_found.email)
+    # @classmethod
+    # def copy_email(cls, first_name):
+    #     user_found = User.find_by_first_name(first_name)
+    #     pyperclip.copy(user_found.email)
