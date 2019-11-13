@@ -29,3 +29,13 @@ $ ./run.py
 ### Installation
  enter the project repository and
  follow this link - https://github.com/anitakate/password-locker
+
+### Bdd
+- clone the repo
+- open the terminal
+- enter your name
+- store your credentials
+- find your credentials
+- delete an exisiting credential
+- the aplication opens your password
+
