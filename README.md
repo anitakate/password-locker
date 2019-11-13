@@ -39,3 +39,5 @@ $ ./run.py
 - delete an exisiting credential
 - the aplication opens your password
 
+### Contact Information
+For more information, call this number (0758827667) or email @ (catherinenyambura000@gmail.com)
