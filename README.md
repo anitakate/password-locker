@@ -1,7 +1,7 @@
 ### Password-locker
 
 ### Author
-Catherine Nyambura Ndung'u
+Catherine Nyambura Ndung'u .
 
 ### Description
 This is an application that will help us manage our passwords and even generate new passwords for us.
@@ -30,7 +30,7 @@ From a terminal window, change to the local directory where you want to clone yo
 - the aplication opens your password
 
 ### Contact Information
-For more information, call this number (0758827667) or email @ (catherinenyambura000@gmail.com)
+For more information, call this number (0758827667) or email @ (catherinenyambura000@gmail.com) .
 
 ### Lincense
 MIT License
