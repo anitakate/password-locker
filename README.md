@@ -1,7 +1,7 @@
 ### Password-locker
 
 ### Author
-Catherine Nyambura
+Catherine Nyambura Ndung'u
 
 ### Description
 This is an application that will help us manage our passwords and even generate new passwords for us.
@@ -22,3 +22,10 @@ $ chmod +x run.py
 
 Run this command to open the app
 $ ./run.py
+
+### Technologies Used
+ python3.6
+ 
+### Installation
+ enter the project repository and
+ follow this link - https://github.com/anitakate/password-locker
